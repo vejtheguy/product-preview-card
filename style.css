@@ -38,8 +38,6 @@ main {
 h1 {
     font-size: 32px;
     font-family: var(--fraunces);
-    color: var(--darkBlue);
-    line-height: 1;
 }
 
 h2 {
@@ -91,7 +89,12 @@ p {
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 5px;
-    margin-bottom: -5px;
+    margin-bottom: -3px;
+}
+
+.product-title {
+    color: var(--darkBlue);
+    line-height: 1;
 }
 
 .pricing {

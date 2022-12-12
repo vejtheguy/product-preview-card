@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](/product-preview-card-component-main/productPreviewScreenshot.jpg)
+![screenshot](/productPreviewScreenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com/vejtheguy/product-preview-card](https://github.com/vejtheguy/product-preview-card)
+- Live Site URL: [vejtheguy.github.io/product-preview-card](https://vejtheguy.github.io/product-preview-card/)
 
 ## My process
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-With this project, I learned the use of a html picture tag and how you can apply a differnet image for different widths:
+With this project, I learned the use of the html picture tag and how you can apply a differnet image for different widths:
 
 ```html
   <picture class="product-image">

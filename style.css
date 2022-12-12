@@ -38,6 +38,8 @@ main {
 h1 {
     font-size: 32px;
     font-family: var(--fraunces);
+    color: var(--darkBlue);
+    line-height: 1;
 }
 
 h2 {
@@ -53,7 +55,7 @@ img {
 p {
     font-size: 14px;
     color: var(--grayBlue);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .product-preview {
@@ -71,7 +73,6 @@ p {
 
 .product-image {
     width: 50%;
-    filter: brightness(90%);
 }
 
 .product-content {
@@ -93,11 +94,6 @@ p {
     margin-bottom: -5px;
 }
 
-.product-title {
-    color: var(--darkBlue);
-    line-height: 1;
-}
-
 .pricing {
     display: flex;
     justify-content: center;
@@ -112,6 +108,7 @@ p {
     font-size: 13px;
     text-decoration: line-through;
     margin-left: 19px;
+    margin-top: -3px;
 }
 
 .cart-button {
@@ -127,7 +124,6 @@ p {
     font-size: 14px;
     font-weight: 700;
     font-family: var(--montserrat);
-    letter-spacing: 0.5px;
     cursor: pointer;
 }
 

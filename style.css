@@ -40,11 +40,6 @@ h1 {
     font-family: var(--fraunces);
 }
 
-h2 {
-    font-size: 32px;
-    font-family: var(--fraunces);
-}
-
 img {
     display: block;
     max-width: 100%;
@@ -53,7 +48,16 @@ img {
 p {
     font-size: 14px;
     color: var(--grayBlue);
-    line-height: 1.7;
+    line-height: 1.6;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
 }
 
 .product-preview {
@@ -90,6 +94,7 @@ p {
     font-size: 12px;
     letter-spacing: 5px;
     margin-bottom: -3px;
+    line-height: normal;
 }
 
 .product-title {
@@ -105,13 +110,15 @@ p {
 
 .sale-price {
     color: var(--darkCyan);
+    font-size: 32px;
+    font-family: var(--fraunces);
 }
 
 .og-price {
     font-size: 13px;
-    text-decoration: line-through;
     margin-left: 19px;
     margin-top: -3px;
+    color: var(--grayBlue);
 }
 
 .cart-button {
